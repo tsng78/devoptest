@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OS0KwRtXVi4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tsng9\\source\\repos\\devoppsapp\\devoppsapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tsng9\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
+  ],
+  "logs": []
+}
