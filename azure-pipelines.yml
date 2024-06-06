@@ -33,3 +33,11 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 - task: PublishBuildArtifacts@1
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure subscription 1(47002b8a-60e1-4291-be09-13b9bf395152)'
+    appType: 'webApp'
+    WebAppName: 'devopapp1'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
